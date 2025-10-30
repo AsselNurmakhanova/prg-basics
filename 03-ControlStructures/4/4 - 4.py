@@ -4,5 +4,5 @@ university_expanded = ' '
 for char in university:
     university_expanded = university_expanded + ... + ...
 
-print(...) # original university name
+print(university) # original university name
 print(...) # expanded university name
