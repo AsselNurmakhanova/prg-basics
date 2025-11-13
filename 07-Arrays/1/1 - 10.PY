@@ -3,21 +3,20 @@ test_results = [
    True, True, False, True, True,
    False, True, True, True, False
 ]
-question.number = len(...)
-
-# calculates the number of correct answers
+question_number = len(test_results)
 correct_answers = 0
 for answer in test_results:
-   if ...:
-      correct_answer = ...
-
-# calculates the number of incorrect answers
-...
-
-# calculates the percentage of correct answers
-...
+   if answer == True:
+      correct_answers += 1
+incorrect_answers = 0
+for answer in test_results:
+   if answer == False:
+      incorrect_answers += 1
+percentage = (correct_answers * 100)/15
 
 print('TEST STATISTICS')
 print('===============')
-print('Number of questions:', ...)
-print('Number of correct answers:', ...)
+print('Number of questions:', question_number)
+print('Number of correct answers:', correct_answers)
+print('Number of incorrect answers:', incorrect_answers)
+print(f'Percentage of correct answers {percentage}%')
