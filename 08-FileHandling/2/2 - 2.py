@@ -12,9 +12,9 @@ seven_wonders = [
 file_name = 'seven_wonders.txt'
 
 # Sort data alphabetically
-sorted = sorted(file_name)
+sorted_file = sorted(seven_wonders)
 
 # Write data to the file
     with open(file_name, 'w') as file:
       for item in file:
-         ... .write(...)
+         file.write(sorted_file)
