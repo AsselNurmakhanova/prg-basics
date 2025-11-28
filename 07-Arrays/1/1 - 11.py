@@ -20,9 +20,16 @@ max_temp = max(temperatures)
 # calculates number of days with negative temp
 negative_temp = 0
 i = 0
-while i < 0:
-   if temperatures[...] < ...:
-      negative_temp ...
-   i = ...
+while i < len(temperatures):
+   if temperatures[i] < 0:
+      negative_temp += 1
+   i += 1
 
 # prints out month report
+print("TEMPERATURE REPORT")
+print("Month: March")
+print(f"Number of measurements: {mesaurements}")
+print(f"Average temperature in the month: {avg_temp}")
+print(f"Minimum temperature: {min_temp}")
+print(f"Maximum temperature: {max_temp}")
+print(f"Number of days with negative temperature: {negative_temp}")
