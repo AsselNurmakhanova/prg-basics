@@ -1,0 +1,25 @@
+from tv import TV
+
+def main():
+    my_tv = TV()
+    print("Show TV status")
+    my_tv.show_status()
+    print("\nTurn TV on")
+    my_tv.turn_on()
+    my_tv.show_status()
+    print("\nChange TV channel to 5")
+    my_tv.set_channel(5)
+    my_tv.show_status()
+    print("\nTurn TV off")
+    my_tv.turn_off()
+    my_tv.show_status()
+    print("\nSet TV channels: TVP1, TVP2, Polsat, TVN, Filmbox, Discovery")
+    my_tv.set_channels(["TVP1", "TVP2", "Polsat", "TVN", "Filmbox", "Discovery"])
+    print("\nDisplay the list of available channels")
+    my_tv.show_channels()
+    print("\nTurn TV on")
+    my_tv.turn_on()
+    my_tv.show_status()
+
+if __name__ == "__main__":
+    main()
