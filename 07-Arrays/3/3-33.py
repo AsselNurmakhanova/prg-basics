@@ -4,17 +4,9 @@ arr = [
     [6, 7, 8, 9, 10],
     [11, 12, 13, 14, 15]
 ]
-
-# вывод массива до изменений
-print("Before swapping columns:")
-for row in arr:
-    print(row)
-
-# меняем первый и последний столбец
+# меняем первый и последний column
 for row in arr:
     row[0], row[-1] = row[-1], row[0]
-
-# вывод массива после изменений
 print("\nAfter swapping columns:")
 for row in arr:
     print(row)

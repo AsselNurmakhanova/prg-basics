@@ -1,1 +1,5 @@
-jjjjjjjj67676
+jjjjjjjj67676ttt
+yyy
+& C:/Users/Asus/Desktop/uroki/prg-basics/.venv/Scripts/python.exe "c:/Users/Asus/Desktop/uroki/prg-basics/08-FileHandling/4/4 - 5.py"
+& C:/Users/Asus/Desktop/uroki/prg-basics/.venv/Scripts/python.exe "c:/Users/Asus/Desktop/uroki/prg-basics/08-FileHandling/4/4 - 5.py"
+& C:/Users/Asus/Desktop/uroki/prg-basics/.venv/Scripts/python.exe "c:/Users/Asus/Desktop/uroki/prg-basics/08-FileHandling/4/4 - 5.py"

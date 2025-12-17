@@ -7,4 +7,6 @@ def create_2d_arr(x, y):
         arr.append(row)
     return arr
 
-print(create_2d_arr(3,5))
+arr = create_2d_arr(3,5)
+for row in arr:
+    print(row)

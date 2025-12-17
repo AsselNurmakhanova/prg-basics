@@ -3,3 +3,5 @@ def weekday(n):
     return weekdays[n - 1]
 
 print(weekday(1))
+print(weekday(5))
+print(weekday(7))

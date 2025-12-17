@@ -1,17 +1,26 @@
 def identity_matrix(n):
     matrix = []
-    for row in range(n):
-        matrix.append([])          
-        for col in range(n):
-            if row == col:
-                matrix[row].append(1)
+    for i in range(n):
+        row = []
+        for j in range(n):
+            if i == j:
+                row.append(1)
             else:
-                matrix[row].append(0)
+                row.append(0)
+        matrix.append(row)
     return matrix
 
-def print_2d(arr):
+def print_2d_array(arr):
+    """
+    Выводит двумерный массив в виде строк и столбцов
+    """
     for row in arr:
-        print(row)
-    print() 
+        print(*row) 
+    print()  
 
-print(print_2d(identity_matrix(3)))
+sizes = [3, 5, 8]
+
+for size in sizes:
+    print(f"Identity matrix {size}x{size}:")
+    mat = identity_matrix(size)
+    print_2d_array(mat)
