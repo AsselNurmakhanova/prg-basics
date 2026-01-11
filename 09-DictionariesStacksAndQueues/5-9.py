@@ -1,7 +1,7 @@
 import csv
 letters_to_province = {}
 province = 'province.csv'
-with open(province, 'r') as csvfile:
+with open(province, 'r', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         letters_to_province[row['Letter']] = row['Name']

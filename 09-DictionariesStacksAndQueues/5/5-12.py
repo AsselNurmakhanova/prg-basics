@@ -10,3 +10,4 @@ def reverse_string(s):
 text = input("Enter text to reverse: ")
 reversed_text = reverse_string(text)
 print("Reversed text:", reversed_text)
+
