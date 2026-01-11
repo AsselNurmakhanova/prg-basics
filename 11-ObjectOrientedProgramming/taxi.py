@@ -9,9 +9,6 @@ class TaxiRide:
         self.fare = self.distance * self.rate_per_km
     def print_receipt(self):
         print(self.distance, self.fare, self.rate_per_km)
-
-
-
 def main():
     car1 = TaxiRide(6)
     car2 = TaxiRide(7)
